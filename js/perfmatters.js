@@ -2,7 +2,7 @@ function logCRP(){var n=window.performance.timing,t=n.domContentLoadedEventStart
 function b(){
  var a=document.createElement("link");
  a.rel="stylesheet";
- a.href="/css/style.css";
+ a.href="/page-speed/css/style.css";
  document.getElementsByTagName("head")[0].appendChild(a)
 }
 var c=requestAnimationFrame||mozRequestAnimationFrame||webkitRequestAnimationFrame||msRequestAnimationFrame;
